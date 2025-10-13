@@ -40,14 +40,15 @@ const HeroSection = () => {
                                 transition={{ duration: 0.6, delay: 0.5 }}
                             >
                                 <div className="rounded-md shadow">
-                                    <motion.button
+                                    <motion.a
+                                        href="#contact"
                                         className="w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10"
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.95 }}
                                     >
                                         Get Started
                                         <ArrowRight className="ml-2 h-5 w-5" />
-                                    </motion.button>
+                                    </motion.a>
                                 </div>
                             </motion.div>
 
