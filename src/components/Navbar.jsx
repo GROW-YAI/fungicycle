@@ -18,13 +18,16 @@ const Navbar = () => {
 
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-4">
+                            <a href="/" className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
                             <a href="#features" className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Features</a>
-                            <a href="#process" className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Our Process</a>
-                            <a href="#impact" className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Impact</a>
+                            {/* <a href="#process" className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Our Process</a> */}
+                            {/* <a href="#impact" className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Impact</a> */}
                             <a href="#contact" className="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
-                            <button className="bg-green-600 text-white px-4 py-2 rounded-md hover:text-gray-700 transition-colors">
+                            <a 
+                            href="#contact"
+                            className="bg-green-600 text-white px-4 py-2 rounded-md hover:text-gray-700 transition-colors">
                                 Get Started
-                            </button>
+                            </a>
                         </div>
                     </div>
 
@@ -47,13 +50,15 @@ const Navbar = () => {
                     className="md:hidden"
                 >
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
+                        <a href="/" 
+                        className="text-gray-700 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium">Home</a>
                         <a href="#features" className="text-gray-700 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium">Features</a>
-                        <a href="#process" className="text-gray-700 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium">Our Process</a>
-                        <a href="#impact" className="text-gray-700 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium">Impact</a>
+                        {/* <a href="#process" className="text-gray-700 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium">Our Process</a>
+                        <a href="#impact" className="text-gray-700 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium">Impact</a> */}
                         <a href="#contact" className="text-gray-700 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
-                        <button className="bg-green-600 text-white w-full px-4 py-2 rounded-md hover:text-gray-700 transition-colors">
+                        {/* <button className="bg-green-600 text-white w-full px-4 py-2 rounded-md hover:text-gray-700 transition-colors">
                             Get Started
-                        </button>
+                        </button> */}
                     </div>
                 </motion.div>
             )}

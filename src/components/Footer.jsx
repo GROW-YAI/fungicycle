@@ -24,19 +24,20 @@ const Footer = () => {
                         <h3 className="text-white font-semibold mb-4">Quick Links</h3>
                         <ul className="space-y-2">
                             <li><a href="/" className="hover:text-green-500 transition-colors">Home</a></li>
-                            <li><a href="#" className="hover:text-green-500 transition-colors">About Us</a></li>
-                            <li><a href="#" className="hover:text-green-500 transition-colors">Services</a></li>
+                            <li><a href="#features" className="hover:text-green-500 transition-colors">Features</a></li>
+                            {/* <li><a href="#" className="hover:text-green-500 transition-colors">About Us</a></li>
+                            <li><a href="#" className="hover:text-green-500 transition-colors">Services</a></li> */}
                             <li><a href="#contact" className="hover:text-green-500 transition-colors">Contact</a></li>
                         </ul>
                     </div>
 
-                    <div>
+                    {/* <div>
                         <h3 className="text-white font-semibold mb-4">Legal</h3>
                         <ul className="space-y-2">
                             <li><a href="#" className="hover:text-green-500 transition-colors">Privacy Policy</a></li>
                             <li><a href="#" className="hover:text-green-500 transition-colors">Terms of Service</a></li>
                         </ul>
-                    </div>
+                    </div> */}
 
                     <div>
                         <h3 className="text-white font-semibold mb-4">Connect with Us</h3>
