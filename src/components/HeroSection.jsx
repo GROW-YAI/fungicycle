@@ -103,7 +103,7 @@ const HeroSection = () => {
             >
                 <img
                     className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                    src="/images/istockphoto-1246468417-612x612.webp"
+                    src="/images/heroSection.jpeg"
                     alt="Oyster mushrooms growing"
                 />
             </motion.div>

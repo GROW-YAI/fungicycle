@@ -42,30 +42,30 @@ const Footer = () => {
                     <div>
                         <h3 className="text-white font-semibold mb-4">Connect with Us</h3>
                         <div className="flex space-x-4">
-                            <a
+                            {/* <a
                                 href="https://www.instagram.com/fungi_cycle?igsh=aDUzeTE5aXQ3dmQx"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-green-500 transition-colors"
                             >
                                 <FaInstagram className="text-2xl" />
-                            </a>
+                            </a> */}
                             <a
-                                href="https://www.facebook.com/profile.php?id=61570396109659"
+                                href="https://www.facebook.com/profile.php?id=61582304727567&mibextid=rS40aB7S9Ucbxw6v"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-green-500 transition-colors"
                             >
                                 <FaMeta className="text-2xl" />
                             </a>
-                            <a
+                            {/* <a
                                 href="https://www.tiktok.com/@fungicycle?lang=en"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-green-500 transition-colors"
                             >
                                 <FaTiktok className="text-2xl" />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
